@@ -25,7 +25,7 @@
     "d3-plugins": "*",
     "c3js-chart": "~0.4.10",
     "angular-filter": "~0.5.4",
-    "babbage.ui": "gh-pages"
+    "https://github.com/mattfullerton/babbage.ui.git": "gh-pages"
   },
   "resolutions": {
     "angular": "1.2.28",

@@ -114,11 +114,11 @@ module.exports = function(grunt) {
     watch: {
       templates: {
         files: ['templates/**/*.html'],
-        tasks: ['html2js']
+        tasks: ['html2js', 'concat', 'uglify:app']
       },
       js: {
-        files: ['src/**/*.js'],
-        tasks: ['concat', 'uglify:app']
+        files: ['src/**/*.js', 'bower_components/babbage.ui/dist/**/*.js'],
+        tasks: ['concat', 'uglify:app', 'uglify:vendor']
       },
       style: {
         files: ['style/**/*.less'],
