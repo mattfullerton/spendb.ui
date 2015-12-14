@@ -1,5 +1,7 @@
 # spendb.ui
 
+THIS FORK IS PART OF A PROOF OF CONCEPT.
+
 This is the user interface to SpenDB, based on AngularJS. The backend
 API of SpenDB is required to properly run this application.
 
